@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #949494;
+    padding: 2rem;
+}
+
+.dialog {
+    display: block;
+    transition: all ease 0.4s;
+    /* padding: 2rem; */
+}
+
+.dialog .fields {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.dialog .res {
+    margin-left: 1rem;
+}
+
+.dialog input {
+    
+    padding: .5rem;
+    margin-left: 1rem;
+    border: 1px solid;
+}
